@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv)
 
-  const response = await fetch('http://119.59.124.91:1079/', {
+  const response = await fetch('maki-th-ht01.maki-site.tk:1079/', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
